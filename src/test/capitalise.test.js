@@ -1,4 +1,4 @@
-import { capitalise } from "./capitalise.js";
+import { capitalise } from "../capitalise.js";
 
 test("Capitalise lowercase short word", () => {
   expect(capitalise("ckyever")).toBe("Ckyever");
